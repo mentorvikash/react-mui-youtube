@@ -3,7 +3,7 @@ import React from "react";
 import DeleteIcon from "@mui/icons-material/Delete";
 import SendIcon from "@mui/icons-material/Send";
 
-function Buttons() {
+function MuiButton() {
   return (
     <Stack spacing={4}>
       <Stack spacing={2} direction={"row"}>
@@ -97,4 +97,4 @@ function Buttons() {
   );
 }
 
-export default Buttons;
+export default MuiButton;
