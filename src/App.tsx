@@ -7,7 +7,7 @@ import "./App.css";
 // import MuiToggleBtn from "./components/D4ToggleBtn/MuiToggleBtn";
 // import MuiTextField from "./components/D5Textfield/MuiTextField";
 // import MuiSelect from "./components/D6Select/MuiSelect";
-import MuiRadioBtn from "./components/D7RadioBtn/MuiRadioBtn";
+// import MuiRadioBtn from "./components/D7RadioBtn/MuiRadioBtn";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       {/* <MuiToggleBtn /> */}
       {/* <MuiTextField /> */}
       {/* <MuiSelect /> */}
-      <MuiRadioBtn />
+      {/* <MuiRadioBtn /> */}
     </div>
   );
 }
