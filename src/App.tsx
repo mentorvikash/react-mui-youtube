@@ -5,7 +5,8 @@ import "./App.css";
 // import MuiButton from './components/D2Button/MuiButtons';
 // import GroupBtn from './components/D3GroupBtn/MuiGroupBtn';
 // import MuiToggleBtn from "./components/D4ToggleBtn/MuiToggleBtn";
-import MuiTextField from "./components/D5Textfield/MuiTextField";
+// import MuiTextField from "./components/D5Textfield/MuiTextField";
+import MuiSelect from "./components/D6Select/MuiSelect";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <MuiButton /> */}
       {/* <GroupBtn /> */}
       {/* <MuiToggleBtn /> */}
-      <MuiTextField />
+      {/* <MuiTextField /> */}
+      <MuiSelect />
     </div>
   );
 }
