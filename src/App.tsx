@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import MuiPaper from "./components/D14Paper/MuiPaper";
+// import MuiPaper from "./components/D14Paper/MuiPaper";
 // import MuiGrid from "./components/D13Grid/MuiGrid";
-// import MuiStack from "./components/D12Box copy 2/MuiStack";
+// import MuiStack from "./components/D12Stack/MuiStack";
 // import MuiBox from "./components/D12Box/MuiBox";
 // import MuiTypography from './components/D1Typography/MuiTypography';
 // import MuiButton from './components/D2Button/MuiButtons';
@@ -33,8 +33,8 @@ function App() {
       {/* <MuiBox /> */}
       {/* <MuiStack /> */}
       {/* <MuiGrid /> */}
-      <MuiPaper />
-    
+      {/* <MuiPaper /> */}
+      
     </div>
   );
 }
