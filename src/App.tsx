@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import MuiStack from "./components/D12Box copy 2/MuiStack";
+import MuiGrid from "./components/D13Grid/MuiGrid";
+// import MuiStack from "./components/D12Box copy 2/MuiStack";
 // import MuiBox from "./components/D12Box/MuiBox";
 // import MuiTypography from './components/D1Typography/MuiTypography';
 // import MuiButton from './components/D2Button/MuiButtons';
@@ -13,7 +14,6 @@ import MuiStack from "./components/D12Box copy 2/MuiStack";
 // import MuiSwitch from "./components/D9Switch/MuiSwitch";
 // import MuiRating from "./components/D10Rating/MuiRating";
 // import MuiAutoComplete from "./components/D11AutoComplete/MuiAutoComplete";
-
 
 function App() {
   return (
@@ -30,12 +30,9 @@ function App() {
       {/* <MuiRating /> */}
       {/* <MuiAutoComplete /> */}
       {/* <MuiBox /> */}
-      <MuiStack />
-      {/* <MuiGrid /> */}
+      {/* <MuiStack /> */}
+      <MuiGrid />
       {/* <MuiPaper /> */}
-
-
-
     </div>
   );
 }
