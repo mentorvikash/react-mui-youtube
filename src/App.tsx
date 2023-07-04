@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import MuiAutoComplete from "./components/D11AutoComplete/MuiAutoComplete";
 // import MuiTypography from './components/D1Typography/MuiTypography';
 // import MuiButton from './components/D2Button/MuiButtons';
 // import GroupBtn from './components/D3GroupBtn/MuiGroupBtn';
@@ -9,7 +10,7 @@ import "./App.css";
 // import MuiRadioBtn from "./components/D7RadioBtn/MuiRadioBtn";
 // import MuiCheckBox from "./components/D8CheckBox/MuiCheckBox";
 // import MuiSwitch from "./components/D9Switch/MuiSwitch";
-import MuiRating from "./components/D10Rating/MuiRating";
+// import MuiRating from "./components/D10Rating/MuiRating";
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
       {/* <MuiRadioBtn /> */}
       {/* <MuiCheckBox /> */}
       {/* <MuiSwitch /> */}
-      <MuiRating />
+      {/* <MuiRating /> */}
+      <MuiAutoComplete />
+
     </div>
   );
 }
