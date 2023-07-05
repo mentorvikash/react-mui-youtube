@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import MuiAvatar from "./components/D25Avatar/MuiAvatar";
+import MuiBottomNavigatoin from "./components/D26BottomNavigatoin/MuiBottomNavigatoin";
+// import MuiAvatar from "./components/D25Avatar/MuiAvatar";
 // import MuiSpeedDial from "./components/D24SpeedDial/MuiSpeedDial";
 // import MuiBredcrum from "./components/D22Bredcrum/MuiBredcrum";
 // import MuiDrawer from "./components/D23Drawer/MuiDrawer";
@@ -54,9 +55,8 @@ function App() {
       {/* <MuiBredcrum /> */}
       {/* <MuiDrawer /> */}
       {/* <MuiSpeedDial /> */}
-      <MuiAvatar />
-      
-      
+      {/* <MuiAvatar /> */}
+      <MuiBottomNavigatoin />
     </div>
   );
 }
