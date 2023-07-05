@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import MuiBatch from "./components/D27Badge/MuiBadge";
+import MuiList from "./components/D28List/MuIList";
+// import MuiBatch from "./components/D27Badge/MuiBadge";
 // import MuiBottomNavigatoin from "./components/D26BottomNavigatoin/MuiBottomNavigatoin";
 // import MuiAvatar from "./components/D25Avatar/MuiAvatar";
 // import MuiSpeedDial from "./components/D24SpeedDial/MuiSpeedDial";
@@ -58,7 +59,9 @@ function App() {
       {/* <MuiSpeedDial /> */}
       {/* <MuiAvatar /> */}
       {/* <MuiBottomNavigatoin /> */}
-      <MuiBatch />
+      {/* <MuiBatch /> */}
+      <MuiList />
+    
     </div>
   );
 }
