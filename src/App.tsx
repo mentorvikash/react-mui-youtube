@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import MuiList from "./components/D28List/MuIList";
+import MuiChip from "./components/D28Clip/MuiCliip";
 // import MuiBatch from "./components/D27Badge/MuiBadge";
 // import MuiBottomNavigatoin from "./components/D26BottomNavigatoin/MuiBottomNavigatoin";
 // import MuiAvatar from "./components/D25Avatar/MuiAvatar";
@@ -60,8 +61,9 @@ function App() {
       {/* <MuiAvatar /> */}
       {/* <MuiBottomNavigatoin /> */}
       {/* <MuiBatch /> */}
-      <MuiList />
-    
+      {/* <MuiList /> */}
+      {/* <MuiList /> */}
+      <MuiChip />
     </div>
   );
 }
