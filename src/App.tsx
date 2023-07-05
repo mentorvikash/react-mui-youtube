@@ -1,16 +1,18 @@
 import React from "react";
 import "./App.css";
-import MuiDrawer from "./components/D21Drawer/MuiDrawer";
-// import MuiLink from "./components/D19Link/MuiLink";
-// import MuiBredcrum from "./components/D20Bredcrum/MuiBredcrum";
-// import MuiMenu from "./components/D18Menu/MuiMenu";
-// import MuiNavBar from "./components/D17NavBar/MuiNavBar";
-// import MuiMultiImageList from "./components/D16MultiImageList/MuiMultiImageList";
-// import MuiCard from "./components/D15Card/MuiCard";
-// import MuiAccordion from "./components/D16Accordion/MuiAccordion";
-// import MuiPaper from "./components/D14Paper/MuiPaper";
-// import MuiGrid from "./components/D13Grid/MuiGrid";
-// import MuiStack from "./components/D12Stack/MuiStack";
+import MuiAvatar from "./components/D25Avatar/MuiAvatar";
+// import MuiSpeedDial from "./components/D24SpeedDial/MuiSpeedDial";
+// import MuiBredcrum from "./components/D22Bredcrum/MuiBredcrum";
+// import MuiDrawer from "./components/D23Drawer/MuiDrawer";
+// import MuiLink from "./components/D21Link/MuiLink";
+// import MuiMenu from "./components/D20Menu/MuiMenu";
+// import MuiNavBar from "./components/D19NavBar/MuiNavBar";
+// import MuiMultiImageList from "./components/D17MultiImageList/MuiMultiImageList";
+// import MuiCard from "./components/D16Card/MuiCard";
+// import MuiAccordion from "./components/D18Accordion/MuiAccordion";
+// import MuiPaper from "./components/D15Paper/MuiPaper";
+// import MuiGrid from "./components/D14Grid/MuiGrid";
+// import MuiStack from "./components/D13Stack/MuiStack";
 // import MuiBox from "./components/D12Box/MuiBox";
 // import MuiTypography from './components/D1Typography/MuiTypography';
 // import MuiButton from './components/D2Button/MuiButtons';
@@ -50,7 +52,11 @@ function App() {
       {/* <MuiLink /> */}
       {/* <MuiBredcrum /> */}
       {/* <MuiBredcrum /> */}
-      <MuiDrawer />
+      {/* <MuiDrawer /> */}
+      {/* <MuiSpeedDial /> */}
+      <MuiAvatar />
+      
+      
     </div>
   );
 }
