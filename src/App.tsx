@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import MuiSnackBar from "./components/D32SnackBar/MuiSnackBar";
-import MuiDialog from "./components/D33 Dialog/MuiDialog";
+import MuiSnackBar from "./components/D33 SnackBar/MuiSnackBar";
+import MuiDialog from "./components/D34 Dialog/MuiDialog";
 // import MuiList from "./components/D28List/MuIList";
 // import MuiTooltip from "./components/D30Tooltip/MuiTooltip";
 // import MuiTable from "./components/D31Table/MuiTable";
