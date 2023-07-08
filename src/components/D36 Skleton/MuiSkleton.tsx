@@ -34,6 +34,8 @@ export default function MuiSkleton() {
           <img
             src="https://source.unsplash.com/random/"
             alt="random image"
+            width={"400px"}
+            height={"200px"}
           ></img>
         )}
         <Stack direction={"row"} spacing={2} width={"100%"}>

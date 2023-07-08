@@ -4,6 +4,7 @@ import MuiSnackBar from "./components/D33 SnackBar/MuiSnackBar";
 import MuiDialog from "./components/D34 Dialog/MuiDialog";
 // import MuiProgressBar from "./components/D35 ProgressBar/MuiProgressBar";
 import MuiSkleton from "./components/D36 Skleton/MuiSkleton";
+import MuiLodingBtn from "./components/D37 LodingBtn/MuiLodingBtn";
 // import MuiList from "./components/D28List/MuIList";
 // import MuiTooltip from "./components/D30Tooltip/MuiTooltip";
 // import MuiTable from "./components/D31Table/MuiTable";
@@ -76,7 +77,9 @@ function App() {
       {/* <MuiSnackBar /> */}
       {/* <MuiDialog /> */}
       {/* <MuiProgressBar /> */}
-      <MuiSkleton />
+      {/* <MuiSkleton /> */}
+      <MuiLodingBtn />
+      
     </div>
   );
 }
