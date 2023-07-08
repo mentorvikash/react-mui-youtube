@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 import MuiSnackBar from "./components/D33 SnackBar/MuiSnackBar";
 import MuiDialog from "./components/D34 Dialog/MuiDialog";
-import MuiProgressBar from "./components/D35 ProgressBar/MuiProgressBar";
+// import MuiProgressBar from "./components/D35 ProgressBar/MuiProgressBar";
+import MuiSkleton from "./components/D36 Skleton/MuiSkleton";
 // import MuiList from "./components/D28List/MuIList";
 // import MuiTooltip from "./components/D30Tooltip/MuiTooltip";
 // import MuiTable from "./components/D31Table/MuiTable";
@@ -74,9 +75,8 @@ function App() {
       {/* <MuiAlert /> */}
       {/* <MuiSnackBar /> */}
       {/* <MuiDialog /> */}
-      <MuiProgressBar />
-      
-      
+      {/* <MuiProgressBar /> */}
+      <MuiSkleton />
     </div>
   );
 }
