@@ -45,6 +45,7 @@ import { ThemeProvider } from "@emotion/react";
 import { LocalizationProvider } from "@mui/x-date-pickers-pro";
 import { AdapterDayjs } from "@mui/x-date-pickers-pro/AdapterDayjs";
 import MuiResponsiveness from "./components/D41 Responsiveness/MuiResponsiveness";
+import MuiTab from "./components/D42 Tab/MuiTab";
 
 const theme = createTheme({
   status: {
@@ -52,7 +53,7 @@ const theme = createTheme({
   },
   palette: {
     secondary: {
-      main: colors.yellow[500],
+      main: colors.green[500],
     },
     nutral: {
       main: colors.red[300],
@@ -106,8 +107,8 @@ function App() {
           {/* <MuiDateTime /> */}
           {/* <MuiDateRangePicker /> */}
           {/* <MuiCustomTheam /> */}
-          <MuiResponsiveness />
-
+          {/* <MuiResponsiveness /> */}
+          <MuiTab />
         </div>
       </LocalizationProvider>
     </ThemeProvider>
